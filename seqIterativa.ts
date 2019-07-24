@@ -17,13 +17,13 @@ seqIterativaForcaBruta()
         if ((n % 2) == 0)
         {
           //console.log("par")
-          console.log(n + "->" + (n / 2));
+          //console.log(n + "->" + (n / 2));
           n = (n / 2);
         }
         else
         {
           //console.log("impar")
-          console.log(n + "->" + ((3 * n) + 1));
+          //console.log(n + "->" + ((3 * n) + 1));
           n = ((3 * n) + 1);
         }
         cont++;
